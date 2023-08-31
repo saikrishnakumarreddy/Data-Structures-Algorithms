@@ -1,7 +1,11 @@
 /* reverse linked List 
  * 1. simple reverse
+ *    Time Complexity: O(N), Traversing over the linked list of size N. 
+ *    Auxiliary Space: O(1)
  * 2. recursive approach
- * 3. stack based approach (Not implemented here) 
+ *    Time Complexity: O(N), Visiting over every node one time 
+ *    Auxiliary Space: O(N), Function call stack space
+ * 3. stack based approach (Not implemented) 
  */
 
 
