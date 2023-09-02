@@ -1,9 +1,9 @@
 /* 
  * Reverse linked List 
- * 1. simple reverse
+ * 1. Iterative approach
  *    Time Complexity: O(n), Traversing over the linked list of size N. 
  *    Auxiliary Space: O(1)
- * 2. recursive approach
+ * 2. Recursive approach
  *    Time Complexity: O(n), Visiting over every node one time 
  *    Auxiliary Space: O(n), Function call stack space
  * 3. Stack based approach (Not implemented) 
@@ -36,7 +36,7 @@ public:
     }
     void print();
     void push(int val);
-    void simpleReverse();
+    void iterativeReverse();
     Node* recursiveReverse(Node *node);
     Node* reverseGroupOfNelements(Node* head, int k);
 };
@@ -61,7 +61,7 @@ LinkedList::push(int val)
 }
 
 void
-LinkedList::simpleReverse()
+LinkedList::iterativeReverse()
 {
     Node *prev = NULL;
     Node *next = NULL;
@@ -131,7 +131,7 @@ main()
     ll.recursiveReverse(ll.head);
     ll.print();
 
-    ll.simpleReverse();
+    ll.iterativeReverse();
     ll.print();
     
     ll.head = ll.reverseGroupOfNelements(ll.head, 2);
