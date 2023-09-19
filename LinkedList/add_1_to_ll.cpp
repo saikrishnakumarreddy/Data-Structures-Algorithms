@@ -1,5 +1,5 @@
 /* 
- * Add 1 to number represented in linked list 
+ * Add 1 to a number represented in linked list 
  *    Time Complexity: O(n), Traversing over the linked list of size N. 
  *    Auxiliary Space: O(1)
  */
