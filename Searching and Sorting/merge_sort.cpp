@@ -1,3 +1,9 @@
+/* 
+ * Merge sorting
+ *  Time Complexity: O(nlogn), we perform operation of n elements for logn times
+ *  Auxiliary Space: O(n), we use an auxiliary array of size at most n to store the merged subarray
+ */
+
 #include<iostream>
 using namespace std;
 
