@@ -1,5 +1,3 @@
-
- 
 /* 
  * printLevelOrderMethod1
  *  Time Complexity: O(N)
