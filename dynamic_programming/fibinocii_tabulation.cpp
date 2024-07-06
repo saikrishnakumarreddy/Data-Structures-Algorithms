@@ -1,4 +1,6 @@
 // Tabulation based approach
+// Bottom Up approach
+// Better compared to memorization because we don't have recursive function stack to maintain in this case.
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
